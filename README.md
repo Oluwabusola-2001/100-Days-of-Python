@@ -1,6 +1,6 @@
 # 100-Days-of-Python
 
-I am committed to learning python in 100 days. I will be sharing my progress daily.
+I am committed to learning python in 100 days and I will be sharing my progress daily.
 
 **Progess Log would be in this form.**
 
@@ -10,6 +10,10 @@ I am committed to learning python in 100 days. I will be sharing my progress dai
 4. Project
 
 **Tools**
+
+
 **Language**: Python
+
 **IDE(Integrated Development Environment)**: Spyder
+
 **Resources**: Udemy
