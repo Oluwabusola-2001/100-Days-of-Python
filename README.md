@@ -10,8 +10,6 @@ I am committed to learning python in 100 days and I will be sharing my progress 
 4. Project
 
 **Tools**
-
-
 **Language**: Python
 
 **IDE(Integrated Development Environment)**: Spyder
