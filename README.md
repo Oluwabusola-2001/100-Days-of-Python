@@ -6,8 +6,9 @@ I am committed to learning python in 100 days and I will be sharing my progress 
 
 1. Day
 2. Topic
-3. Summary
-4. Project
+3. Notes
+4. Tasks
+5. Project
 
 **Tools**
 
