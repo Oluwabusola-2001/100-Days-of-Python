@@ -146,4 +146,20 @@ score += 1
 print(score)
 
 F strings
-F strings is used to insert a avriable or am expression into a string.
+F strings is used to insert a variable or am expression into a string.
+Check this example
+age=12
+print(" I am age years old)
+it will give error.
+To insert a variable, you use f and then the variable in curly bracket.
+Example.
+age = 12
+print(f"I am {age} years old") #It prints out I am 12 years old
+
+Example
+score = 0
+height= 1.8
+is_winning= True
+print(f"Your score is = {score}, your height is {height} and you are winning is {is_winning} ") #It prints out Your score is 0, your height is 1.8 and youre are winning uis true.
+
+
