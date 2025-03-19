@@ -70,5 +70,80 @@ print("Number of letters in your name: " + len(input("Enter your name")))
 It gives a TypeError: can only concatenate str (not "int") to str (This was the error gotten)
 
 # solution
-print("Number of letters in your name:  " len
-input(int("Enter your name"))
+username = input("Enter your name")
+length = len(username)
+print("Number of letters in your name: " + str(length))
+
+Mathematical Operations
+
+There are different types
+
+1. ADDITION USES THE + SIGN
+Example 9+2 gives us 11
+
+2. SUBTRACTION USES THE - SIGN
+Example 5-2 gives us 3
+
+3. MULTIPLICATION USES THE ASTERICK * SIGN
+Example 6*6 gives us 36
+
+4. DIVISION USES THE FORWARD SLASH / SIGN
+Example 8/4 gives us 2.0
+Note: Divison always gives us a float as answer 
+But if you do not want your answer in float type, you can use DOUBLE FORWARD SLASH // and it will give you the answer as an integer but you have to be careful.
+This is because it is hiding the remaining floats. So you have to be sure that it is divisible.
+
+5. EXPONENT/ RAISE A NUMBER TO THE POWER USES THE DOUBLE ASTERICK SIGN
+Example 2**3 gives us 8
+
+SAME MATHEMATICAL OPERATION ON THE SAME LINE OF CODE. WHAT DO YOU DO?
+SET PRIOROTY USING PEMDAS- Parentheses, Exponent, Multiplication, Division, Addition and Subtraction. 
+Prioritise left to right if you see division and multiplication togther or addition and subtraction together.
+
+Example
+(3*3+3/3-3) if you print it, it gives 7
+
+TASK
+Use that calculation to ensure your output is 3
+solution 1 - (3/3*3+3-3)
+solution 2 - (3*(3+3)/3-3)
+
+TASK 
+BMI Calculator
+The body mass index (BMI) is a measure used in medicine to see if someone is underweight or overweight. This is the formula used to calculate it:
+bmi is equal to the person's weight divided by the person's height squared.
+Convert this sentence into code.
+SOLUTION
+weight=float(input("Enter your weight")) #CHANGING THE INTENDED STRING TO FLOAT SINCE WE AR GOING TO TYPE IN FLOAT
+height=float(input("Enter your height")) 
+bmi=(weight/(height*2))
+print(bmi) 
+
+NUMBER MANIPULATION
+
+Flooring a Number
+You can floor a number or remove all decimal places using the int() function. This converts a float to an integer
+Using the above example 
+print(bmi) - print(int(bmi)
+
+Rounding up a Number
+You can round up or down using the round() function
+round(bmi) round up or down based on the number
+Example 
+print(round(bmi)
+
+Can also round to decimal places
+print(round(bmi, 2) #gives answer in 2 decimal places
+
+
+Assignment Operator
++= -= *= /=
+These adds the number on the right to the number originla value of variable on the left and assigns the new value to the variable.
+Example
+Score  = 0
+#user scores a point
+score += 1
+print(score)
+
+F strings
+F strings is used to insert a avriable or am expression into a string.
