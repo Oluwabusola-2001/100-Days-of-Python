@@ -1,1 +1,74 @@
+Day 2 - Data types, Numbers, Operations, Type Conversion, Fstrings
 
+Data types. 
+
+We have different data types in python
+
+1. String: characters in a quotation
+example is "Hello"
+To pull out a character from a string, you use [] sqaure brackets example below
+print("Hello"[0]) #it is called subscripting 
+
+THINGS TO NOTE 
+You satart counting the first letter as 0.
+Space is also a character
+you can also use negative number ( -1 -2) and count from the back
+
+Task 
+Pull out letter "o"
+print("Hello"[4])
+example below 
+print("Hello"[-1])
+
+Integer - Whole number without decimal. No need for quotation marks
+if you print this ("123" + "345"). It will just concatuenate because you used strings
+You dont need to put strings for integer 
+Example below
+print(123 + 456) THIS WILL GIVE 579
+Large intgers can be represented with underscore and the coMputer will recognize it
+print(342_245_789)
+
+Floats means floating number i.e decimal point
+print(3.42)
+
+Boolean means only two values True/False 
+THINGS TO NOTE
+No quotation, always start with capital letter
+Examle print(True)
+
+Type Error, Type Cheking and Type Conversion
+
+Type Error occurs when you use wrong data type
+Check this example
+Len(12345) 
+Len() doesnt work with integer and will give you a type error. you have to change to string
+
+Data type Chceking
+
+You can check the data type of any value or variable using the type() function
+EXAMPLES 
+print(type("Hello")) #It gave us a class str which means string
+print(type(123)) #it gives an integer
+print(type("123")) #Note that it gives us a string because it is in quotations
+print(type(False)) #it gives boolean
+print(type(234.90)) #it gives float
+
+Data type conversion
+
+This is to convert a piece of data into a different data type. 
+Example
+int("123") #converting the string to integer it gives 123
+# you can not convert alphabets to integer
+int()
+float()
+bool()
+str()
+
+#Task
+# Make this line of code run without errors
+print("Number of letters in your name: " + len(input("Enter your name")))
+It gives a TypeError: can only concatenate str (not "int") to str (This was the error gotten)
+
+# solution
+print("Number of letters in your name:  " len
+input(int("Enter your name"))
